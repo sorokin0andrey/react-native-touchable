@@ -1,0 +1,51 @@
+{
+  "name": "@busfor/react-native-touchable",
+  "title": "React Native Touchable",
+  "version": "1.0.9",
+  "description": "React Native touchable component",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "lint": "eslint --ext .tsx,.ts ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busfor/react-native-touchable.git",
+    "baseUrl": "https://github.com/busfor/react-native-touchable"
+  },
+  "keywords": [
+    "react-native",
+    "navbar",
+    "header",
+    "collapsible",
+    "scrollview"
+  ],
+  "author": {
+    "name": "Andrey Sorokin",
+    "email": "sorokin0andrey@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^0.0.7",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.12",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "auto-changelog": "^1.16.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-native": "^0.59.10",
+    "typescript": "^3.8.2"
+  }
+}
