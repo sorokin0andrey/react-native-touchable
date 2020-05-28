@@ -4,7 +4,7 @@
 [![npm (tag)](https://img.shields.io/npm/v/@busfor/react-native-touchable/latest?style=for-the-badge)](https://www.npmjs.com/package/@busfor/react-native-touchable)
 ![](https://img.shields.io/npm/types/typescript?style=for-the-badge)
 
-React Native collapsible navBar implementation.
+React Native universal Touchable component.
 
 <div>
 <img width="280px" src="example.gif" />
