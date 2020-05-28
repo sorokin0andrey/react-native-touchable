@@ -1,7 +1,7 @@
 {
   "name": "@busfor/react-native-touchable",
   "title": "React Native Touchable",
-  "version": "1.0.9",
+  "version": "0.0.0",
   "description": "React Native touchable component",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
