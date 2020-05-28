@@ -11,3 +11,4 @@ local.properties
 android.iml
 .eslintrc.js
 .eslintignore
+.github
